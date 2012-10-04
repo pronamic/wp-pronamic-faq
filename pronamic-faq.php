@@ -140,4 +140,3 @@ function pronamic_faq_custom_columns($column, $post_id) {
 }
 
 add_action('manage_posts_custom_column' , 'pronamic_faq_custom_columns', 10, 2 );
-
