@@ -63,7 +63,7 @@ function pronamic_faq_init() {
 			'slug'       => 'faq', 
 			'with_front' => false
 		) ,
-		'menu_icon'          => plugins_url( 'admin/icons/faq.png', __FILE__ ),
+		'menu_icon'          => plugins_url( 'admin/faq-icon.gif', __FILE__ ),
 		'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'custom-fields' ) 
 	) );
 
