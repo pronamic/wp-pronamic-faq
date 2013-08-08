@@ -2,18 +2,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pronamic FAQ\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-11 09:48+0100\n"
-"PO-Revision-Date: 2012-06-11 09:48+0100\n"
-"Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
+"POT-Creation-Date: 2013-08-08 14:14+0100\n"
+"PO-Revision-Date: 2013-08-08 14:14+0100\n"
+"Last-Translator: Remco Tolsma <info@remcotolsma.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
+"Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__withdesc;_ewithdesc;_c;_n_noop:1,2;__ngettext_noop:1,2;_x:2c,1;_nc:1,2;esc_attr_e;esc_html_e;esc_attr__;_nx:4c,1,2;_nx_noop:4c,1,2;esc_html_x:2c,1;esc_html__;_ex:2c,1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__withdesc;_ewithdesc;_c;"
+"_n_noop:1,2;__ngettext_noop:1,2;_x:2c,1;_nc:1,2;esc_attr_e;esc_html_e;"
+"esc_attr__;_nx:4c,1,2;_nx_noop:4c,1,2;esc_html_x:2c,1;esc_html__;_ex:2c,1\n"
 "X-Poedit-Basepath: ../\n"
-"X-Poedit-Language: Dutch\n"
-"X-Poedit-Country: NETHERLANDS\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: pronamic-faq.php:42
@@ -109,25 +111,26 @@ msgstr "Nieuwe FAQ categorie toevoegen"
 msgid "New FAQ Category Name"
 msgstr "Nieuwe FAQ categorie naam"
 
-#: pronamic-faq.php:85
-#: pronamic-faq.php:112
+#: pronamic-faq.php:85 pronamic-faq.php:112
 msgid "Categories"
 msgstr "Categorieën"
 
 #: pronamic-faq.php:105
-msgid "Company"
-msgstr "Bedrijf"
+msgid "Question"
+msgstr "Vraag"
 
 #: pronamic-faq.php:135
 msgid "No Categorie"
 msgstr "Geen categorie"
 
-#~ msgctxt "post type general name"
+#~ msgid "Company"
+#~ msgstr "Bedrijf"
 
+#~ msgctxt "post type general name"
 #~ msgid "Events"
 #~ msgstr "Evenementen"
-#~ msgctxt "post type singular name"
 
+#~ msgctxt "post type singular name"
 #~ msgid "Event"
 #~ msgstr "Evenement"
 
@@ -145,8 +148,8 @@ msgstr "Geen categorie"
 
 #~ msgid "Agenda"
 #~ msgstr "Agenda"
-#~ msgctxt "class general name"
 
+#~ msgctxt "class general name"
 #~ msgid "Event categories"
 #~ msgstr "Agenda categorieën"
 
@@ -330,9 +333,6 @@ msgstr "Geen categorie"
 #~ msgid "Transaction ID"
 #~ msgstr "Transactie ID"
 
-#~ msgid "Description"
-#~ msgstr "Beschrijving"
-
 #~ msgid "Amount"
 #~ msgstr "Bedrag"
 
@@ -376,7 +376,6 @@ msgstr "Geen categorie"
 #~ msgstr "versie %s"
 
 #~ msgid "Configuration deleted."
-
 #~ msgid_plural "Configurations deleted."
 #~ msgstr[0] "Configuratie verwijderd."
 #~ msgstr[1] "Configuraties verwijderd."
@@ -608,7 +607,6 @@ msgstr "Geen categorie"
 #~ msgstr "iDEAL feeds"
 
 #~ msgid "Feed deleted."
-
 #~ msgid_plural "Feeds deleted."
 #~ msgstr[0] "Feed verwijderd."
 #~ msgstr[1] "Feeds verwijderd."
@@ -1062,8 +1060,8 @@ msgstr "Geen categorie"
 
 #~ msgid "Search Transactions"
 #~ msgstr "Zoek transacties"
-#~ msgctxt "link name"
 
+#~ msgctxt "link name"
 #~ msgid "Name"
 #~ msgstr "Naam"
 
@@ -1102,12 +1100,12 @@ msgstr "Geen categorie"
 
 #~ msgid "Custom URL:"
 #~ msgstr "Maatwerk URL:"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Blocks"
 #~ msgstr "Blokken"
-#~ msgctxt "post type singular name"
 
+#~ msgctxt "post type singular name"
 #~ msgid "Block"
 #~ msgstr "Blok"
 
