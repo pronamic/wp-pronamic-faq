@@ -102,7 +102,7 @@ function pronamic_faq_set_columns( $columns ) {
 	// $newColumns['thumbnail'] = __( 'Thumbnail', 'pronamic_companies' );
 
 	if ( isset( $columns['title'] ) ) {
-		$new_columns['title'] = __( 'Company', 'pronamic_companies' );
+		$new_columns['title'] = __( 'Question', 'pronamic_faq' );
 	}
 
 	if ( isset( $columns['author'] ) ) {
