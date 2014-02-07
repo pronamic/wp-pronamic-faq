@@ -1,19 +1,21 @@
 <?php
 /*
 Plugin Name: Pronamic FAQ
-Plugin URI: http://pronamic.eu/wordpress-plugins/pronamic-faq/
-Description: This plugin adds an FAQ functionality to WordPress
+Plugin URI: http://www.happywp.com/plugins/pronamic-faq/
+Description: This plugin adds an FAQ functionality to WordPress.
 
-Version: 1.0
+Version: 1.0.1
 Requires at least: 3.0
 
 Author: Pronamic
-Author URI: http://pronamic.eu/
+Author URI: http://www.pronamic.eu/
 
 Text Domain: pronamic_faq
 Domain Path: /languages/
 
 License: GPL
+
+GitHub URI: https://github.com/pronamic/wp-pronamic-faq
 */
 
 /**
@@ -33,9 +35,9 @@ register_activation_hook( __FILE__, 'pronamic_faq_rewrite_flush' );
  * Register post type
  */
 function pronamic_faq_init() {
-	$relPath = dirname( plugin_basename( __FILE__ ) ) . '/languages/';
+	$rel_path = dirname( plugin_basename( __FILE__ ) ) . '/languages/';
 
-	load_plugin_textdomain( 'pronamic_faq', false, $relPath );
+	load_plugin_textdomain( 'pronamic_faq', false, $rel_path );
 
 	register_post_type( 'pronamic_faq', array(
 		'labels'             => array(
@@ -50,7 +52,7 @@ function pronamic_faq_init() {
 			'not_found'          => __( 'No FAQs found', 'pronamic_faq' ),
 			'not_found_in_trash' => __( 'No FAQs found in Trash', 'pronamic_faq' ), 
 			'parent_item_colon'  => __( 'Parent FAQ:', 'pronamic_faq' ),
-			'menu_name'          => __( 'FAQ', 'pronamic_faq' )
+			'menu_name'          => __( 'FAQ', 'pronamic_faq' ),
 		),
 		'public'             => true,
 		'publicly_queryable' => true,
@@ -63,7 +65,7 @@ function pronamic_faq_init() {
 			'slug'       => 'faq', 
 			'with_front' => false
 		) ,
-		'menu_icon'          => plugins_url( 'admin/faq-icon.gif', __FILE__ ),
+		'menu_icon'          => 'dashicons-format-chat',
 		'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'custom-fields' ) 
 	) );
 

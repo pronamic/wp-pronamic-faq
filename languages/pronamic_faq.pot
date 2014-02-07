@@ -1,0 +1,138 @@
+# Copyright (C) 2014 Pronamic FAQ
+# This file is distributed under the same license as the Pronamic FAQ package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pronamic FAQ 1.0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/pronamic-faq\n"
+"POT-Creation-Date: 2014-02-07 08:44:18+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: pronamic-faq.php:44
+msgctxt "post type general name"
+msgid "FAQ"
+msgstr ""
+
+#: pronamic-faq.php:45
+msgctxt "post type singular name"
+msgid "FAQ"
+msgstr ""
+
+#: pronamic-faq.php:46
+msgctxt "pronamic_faq"
+msgid "Add New"
+msgstr ""
+
+#: pronamic-faq.php:47
+msgid "Add New FAQ"
+msgstr ""
+
+#: pronamic-faq.php:48
+msgid "Edit FAQ"
+msgstr ""
+
+#: pronamic-faq.php:49
+msgid "New FAQ"
+msgstr ""
+
+#: pronamic-faq.php:50
+msgid "View FAQ"
+msgstr ""
+
+#: pronamic-faq.php:51
+msgid "Search FAQs"
+msgstr ""
+
+#: pronamic-faq.php:52
+msgid "No FAQs found"
+msgstr ""
+
+#: pronamic-faq.php:53
+msgid "No FAQs found in Trash"
+msgstr ""
+
+#: pronamic-faq.php:54
+msgid "Parent FAQ:"
+msgstr ""
+
+#: pronamic-faq.php:55
+msgid "FAQ"
+msgstr ""
+
+#: pronamic-faq.php:77
+msgctxt "category general name"
+msgid "FAQ Category"
+msgstr ""
+
+#: pronamic-faq.php:78
+msgctxt "category singular name"
+msgid "FAQ Category"
+msgstr ""
+
+#: pronamic-faq.php:79
+msgid "Search FAQ Categories"
+msgstr ""
+
+#: pronamic-faq.php:80
+msgid "All FAQ Categories"
+msgstr ""
+
+#: pronamic-faq.php:81
+msgid "Parent FAQ Category"
+msgstr ""
+
+#: pronamic-faq.php:82
+msgid "Parent FAQ Category:"
+msgstr ""
+
+#: pronamic-faq.php:83
+msgid "Edit FAQ Category"
+msgstr ""
+
+#: pronamic-faq.php:84
+msgid "Update FAQ Category"
+msgstr ""
+
+#: pronamic-faq.php:85
+msgid "Add New FAQ Category"
+msgstr ""
+
+#: pronamic-faq.php:86
+msgid "New FAQ Category Name"
+msgstr ""
+
+#: pronamic-faq.php:87 pronamic-faq.php:114
+msgid "Categories"
+msgstr ""
+
+#: pronamic-faq.php:107
+msgid "Question"
+msgstr ""
+
+#: pronamic-faq.php:137
+msgid "No Categorie"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Pronamic FAQ"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.happywp.com/plugins/pronamic-faq/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin adds an FAQ functionality to WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pronamic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.pronamic.eu/"
+msgstr ""
