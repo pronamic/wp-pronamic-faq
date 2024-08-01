@@ -59,6 +59,7 @@ function pronamic_faq_init() {
 		'show_ui'            => true,
 		'show_in_menu'       => true,
 		'query_var'          => true,
+		'show_in_rest'       => true,
 		'capability_type'    => 'post',
 		'has_archive'        => true,
 		'rewrite'            => array(
