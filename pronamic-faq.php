@@ -97,6 +97,7 @@ function pronamic_faq_init() {
 			],
 			'show_ui'      => true,
 			'query_var'    => true,
+			'show_in_rest' => true,
 		]
 	);
 }
